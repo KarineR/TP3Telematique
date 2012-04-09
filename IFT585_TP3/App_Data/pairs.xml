@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfUtilisateur xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Utilisateur>
+    <PairGuid>5f37089b-c03c-4d9c-b609-472511ca00a9</PairGuid>
+    <AdresseFixe>testApr</AdresseFixe>
+    <Password>test</Password>
+    <CheminDossierPartage>C:\testFolder</CheminDossierPartage>
+  </Utilisateur>
+  <Utilisateur>
+    <PairGuid>328606f0-ac6e-45fc-bf2e-50a0e76d42a1</PairGuid>
+    <AdresseFixe>testApr</AdresseFixe>
+    <Password>test</Password>
+    <CheminDossierPartage>C:\TestFolder</CheminDossierPartage>
+    <Groupes />
+  </Utilisateur>
+</ArrayOfUtilisateur>
