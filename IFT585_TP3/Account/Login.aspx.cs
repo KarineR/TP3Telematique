@@ -29,6 +29,7 @@ namespace IFT585_TP3.Account
         Session["LoggedIn"] = true;
         Session["PairGuid"] = utilisateur.PairGuid.ToString();
         Session["Username"] = utilisateur.AdresseFixe;
+        Session["Folder"] = utilisateur.CheminDossierPartage;
       }
 
       Response.Redirect("~/Default.aspx");

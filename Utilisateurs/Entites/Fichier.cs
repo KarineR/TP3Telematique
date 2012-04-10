@@ -7,9 +7,10 @@ namespace Entites.Utilisateurs
 {
   public class Fichier
   {
+    public const string FICHIER_LISTE_FICHIERS = "fichiers.xml";
     public Fichier() { }
 
-    public int FichierId { get; set; }
+    public Guid FichierId { get; set; }
     public string Nom { get; set; }
     public DateTime DateModification { get; set; }
   }

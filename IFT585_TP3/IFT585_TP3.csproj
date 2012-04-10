@@ -52,6 +52,7 @@
   <ItemGroup>
     <Content Include="Account\Login.aspx" />
     <Content Include="Account\Register.aspx" />
+    <Content Include="GestionFichiers.aspx" />
     <Content Include="GestionGroupes.aspx" />
     <Content Include="Images\Point_D_Interrogation.png" />
     <Content Include="Styles\Site.css" />
@@ -89,6 +90,13 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GestionFichiers.aspx.cs">
+      <DependentUpon>GestionFichiers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GestionFichiers.aspx.designer.cs">
+      <DependentUpon>GestionFichiers.aspx</DependentUpon>
     </Compile>
     <Compile Include="GestionGroupes.aspx.cs">
       <DependentUpon>GestionGroupes.aspx</DependentUpon>
