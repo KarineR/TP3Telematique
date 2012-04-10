@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfGroupe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Groupe>
+    <Id>9dc3d5bf-a7f1-4f18-a083-cc523bd90445</Id>
+    <Nom>Test2</Nom>
+    <Pairs>
+      <guid>7b0ced85-0349-4e70-8f98-06b7164c2230</guid>
+      <guid>cba65d10-2073-49f2-82f3-f056528d0a2c</guid>
+    </Pairs>
+    <AdministrateurId>cba65d10-2073-49f2-82f3-f056528d0a2c</AdministrateurId>
+    <Fichiers />
+  </Groupe>
+  <Groupe>
+    <Id>511afd6b-864a-4a9f-a07d-b4dec61103e6</Id>
+    <Nom>Test1</Nom>
+    <Pairs>
+      <guid>cba65d10-2073-49f2-82f3-f056528d0a2c</guid>
+      <guid>7b0ced85-0349-4e70-8f98-06b7164c2230</guid>
+    </Pairs>
+    <AdministrateurId>cba65d10-2073-49f2-82f3-f056528d0a2c</AdministrateurId>
+    <Fichiers />
+  </Groupe>
+</ArrayOfGroupe>

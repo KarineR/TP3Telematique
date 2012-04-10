@@ -25,7 +25,7 @@
                 <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" EnableViewState="false" IncludeStyleBlock="false" Orientation="Horizontal">
                     <Items>
                         <asp:MenuItem NavigateUrl="~/Default.aspx" Text="Accueil"/>
-                        <asp:MenuItem NavigateUrl="~/GestionGroupes.aspx" Text="Groupes" />
+                        <asp:MenuItem NavigateUrl="~/Groupes/GestionGroupes.aspx" Text="Groupes" />
                     </Items>
                 </asp:Menu>
             </div>
