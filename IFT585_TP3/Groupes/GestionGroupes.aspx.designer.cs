@@ -11,5 +11,23 @@ namespace IFT585_TP3 {
     
     
     public partial class GestionGroupes {
+        
+        /// <summary>
+        /// Contrôle listeGroupes.
+        /// </summary>
+        /// <remarks>
+        /// Champ généré automatiquement.
+        /// Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl listeGroupes;
+        
+        /// <summary>
+        /// Contrôle btnCreerGroupe.
+        /// </summary>
+        /// <remarks>
+        /// Champ généré automatiquement.
+        /// Pour modifier, déplacez la déclaration de champ du fichier de concepteur dans le fichier code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnCreerGroupe;
     }
 }
