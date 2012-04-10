@@ -26,19 +26,19 @@ namespace IFT585_TP3
       return "Hello World";
     }
 
-    [WebMethod()]
-    public List<AffichageFichierWrapper> GetFileList(List<string> clientFolders)
-    {
-      List<AffichageFichierWrapper> listeRetour = new List<AffichageFichierWrapper>();
-      List<Fichier> tousFichiersServeur = SerializationHelper.DeserializeXml<Fichier>(Server.MapPath("~/App_Data/").ToString() + Fichier.FICHIER_LISTE_FICHIERS);
-      //List<Groupe> groupes = SerializationHelper.DeserializeXml<Groupe>(Server.MapPath("~/App_Data/").ToString() + Groupe.
-      //List<Fichier> fichiersServeur = tousFichiersServeur.Where(item => item.Groupes
+    //[WebMethod()]
+    //public List<AffichageFichierWrapper> GetFileList(List<string> clientFolders)
+    //{
+    //  List<AffichageFichierWrapper> listeRetour = new List<AffichageFichierWrapper>();
+    //  List<Fichier> tousFichiersServeur = SerializationHelper.DeserializeXml<Fichier>(Server.MapPath("~/App_Data/").ToString() + Fichier.FICHIER_LISTE_FICHIERS);
+    //  //List<Groupe> groupes = SerializationHelper.DeserializeXml<Groupe>(Server.MapPath("~/App_Data/").ToString() + Groupe.
+    //  //List<Fichier> fichiersServeur = tousFichiersServeur.Where(item => item.Groupes
 
-      foreach (string clientFolder in clientFolders)
-      {
-        string[] info = clientFolder.Split('|');
-        listeRetour.Add(new AffichageFichierWrapper(Guid.NewGuid(), info[0], info[1], string.Empty, new List<Groupe>()));
-      }
-    }
+    //  foreach (string clientFolder in clientFolders)
+    //  {
+    //    string[] info = clientFolder.Split('|');
+    //    listeRetour.Add(new AffichageFichierWrapper(Guid.NewGuid(), info[0], info[1], string.Empty, new List<Groupe>()));
+    //  }
+    //}
   }
 }

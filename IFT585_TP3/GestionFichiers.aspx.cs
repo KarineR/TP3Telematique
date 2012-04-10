@@ -18,12 +18,5 @@ namespace IFT585_TP3
     {
 
     }
-
-    [WebMethod()]
-    [ScriptMethod()]
-    public static List<AffichageFichierWrapper> GetFileList(List<string> clientSideFiles)
-    {
-      List<Fichier> fichiersServeur = SerializationHelper.DeserializeXml<Fichier>(Fichier.
-    }
   }
 }

@@ -52,6 +52,8 @@
   <ItemGroup>
     <Content Include="Account\Login.aspx" />
     <Content Include="Account\Register.aspx" />
+    <Content Include="General.asmx" />
+    <Content Include="GestionFichiers.aspx" />
     <Content Include="Groupes\CreerGroupe.aspx" />
     <Content Include="Groupes\GestionGroupes.aspx" />
     <Content Include="Images\Point_D_Interrogation.png" />
@@ -91,6 +93,17 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="General.asmx.cs">
+      <DependentUpon>General.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GestionFichiers.aspx.cs">
+      <DependentUpon>GestionFichiers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GestionFichiers.aspx.designer.cs">
+      <DependentUpon>GestionFichiers.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Groupes\CreerGroupe.aspx.cs">
       <DependentUpon>CreerGroupe.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -116,6 +129,7 @@
     <Compile Include="Site.Master.designer.cs">
       <DependentUpon>Site.Master</DependentUpon>
     </Compile>
+    <Compile Include="Wrapper\AffichageFichierWrapper.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
