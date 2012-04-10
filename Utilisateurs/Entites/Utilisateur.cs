@@ -26,5 +26,9 @@ namespace Entites.Utilisateurs
     public string Password { get; set; }
     public string CheminDossierPartage { get; set; }
     public List<Groupe> Groupes { get; set; }
+    public override string ToString()
+    {
+      return AdresseFixe;
+    }
   }
 }
