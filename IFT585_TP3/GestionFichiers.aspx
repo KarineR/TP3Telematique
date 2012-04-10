@@ -7,25 +7,7 @@
     {
         border:1px solid black;
     }
-    .divTr 
-    {
-        width:150px;
-        background-color:#E8E8E8;
-        display:block;
-        clear:both;
-    }
-    
-    .divTr:hover
-    {
-        background-color:#4b6c9e;
-        color:White;
-    }
-    
-    .divTrImpair
-    {
-        background-color:White;
-    }
-    </style>
+        </style>
 
     <script type="text/javascript">
     var folderPath = "<%= Session["Folder"].ToString().Replace("\\", "\\\\") %>";
@@ -50,6 +32,6 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
     <h2>Gestion des fichiers</h2>
-    <div class="folderContent">
+    <div class="folderContent" style="width:150px;">
     </div>
 </asp:Content>
